@@ -50,7 +50,6 @@
     {"id":{"name":"sBlueGate","path":"sprites/sBlueGate/sBlueGate.yy",},},
     {"id":{"name":"sBlueKey","path":"sprites/sBlueKey/sBlueKey.yy",},},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},
-    {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},},
     {"id":{"name":"sRedGate","path":"sprites/sRedGate/sRedGate.yy",},},
     {"id":{"name":"sRedKey","path":"sprites/sRedKey/sRedKey.yy",},},

@@ -1,12 +1,18 @@
 yspd += 0.1;
 xspd = 0;
+keyRight = keyboard_check(ord("D"))
+keyLeft = keyboard_check(ord("A"))
+keyJump = keyboard_check(ord("W"))
+
 if (keyboard_check(ord("A")))
 {
 	xspd = -1.25;
+	image_xscale = -1
 }
 if (keyboard_check(ord("D")))
 {
 	xspd = 1.25;
+	image_xscale = 1
 }
 if place_meeting(x, y+1, oTopGround)
 {
@@ -73,3 +79,4 @@ if place_meeting(x, y, oRedGate)
 		instance_destroy(oRedGate)
 		}
 }
+
