@@ -42,6 +42,7 @@
     {"id":{"name":"oRedGate","path":"objects/oRedGate/oRedGate.yy",},},
     {"id":{"name":"oRedGateFC","path":"objects/oRedGateFC/oRedGateFC.yy",},},
     {"id":{"name":"oRedKey","path":"objects/oRedKey/oRedKey.yy",},},
+    {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
     {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},},
     {"id":{"name":"oTopGround","path":"objects/oTopGround/oTopGround.yy",},},
     {"id":{"name":"oYellowGate","path":"objects/oYellowGate/oYellowGate.yy",},},
