@@ -66,6 +66,7 @@
     {"id":{"name":"sTest","path":"sprites/sTest/sTest.yy",},},
     {"id":{"name":"sYellowGate","path":"sprites/sYellowGate/sYellowGate.yy",},},
     {"id":{"name":"sYellowKey","path":"sprites/sYellowKey/sYellowKey.yy",},},
+    {"id":{"name":"TileSet1_1","path":"tilesets/TileSet1_1/TileSet1_1.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
