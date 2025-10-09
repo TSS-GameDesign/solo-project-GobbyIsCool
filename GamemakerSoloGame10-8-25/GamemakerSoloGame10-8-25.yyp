@@ -38,6 +38,7 @@
     {"id":{"name":"oBlueGate","path":"objects/oBlueGate/oBlueGate.yy",},},
     {"id":{"name":"oBlueKey","path":"objects/oBlueKey/oBlueKey.yy",},},
     {"id":{"name":"oFlag","path":"objects/oFlag/oFlag.yy",},},
+    {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oRedGate","path":"objects/oRedGate/oRedGate.yy",},},
     {"id":{"name":"oRedGateFC","path":"objects/oRedGateFC/oRedGateFC.yy",},},
@@ -57,7 +58,9 @@
     {"id":{"name":"sBluey","path":"sprites/sBluey/sBluey.yy",},},
     {"id":{"name":"sChilli","path":"sprites/sChilli/sChilli.yy",},},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},
+    {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},},
+    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
     {"id":{"name":"sRedGate","path":"sprites/sRedGate/sRedGate.yy",},},
     {"id":{"name":"sRedGateFC","path":"sprites/sRedGateFC/sRedGateFC.yy",},},
     {"id":{"name":"sRedKey","path":"sprites/sRedKey/sRedKey.yy",},},
@@ -72,8 +75,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
