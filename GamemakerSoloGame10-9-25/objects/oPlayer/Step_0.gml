@@ -12,11 +12,6 @@ var wall_left = place_meeting(x - 1, y, oSolid);
 var wall_right = place_meeting(x + 1, y, oSolid);
 var on_plat = place_meeting(x, y+1, oPlatform);
 
-//platfrom
-if on_plat
-{
-	y = 0
-}
 // Jumping
 if (keyboard_check_pressed(ord("W"))) 
 {

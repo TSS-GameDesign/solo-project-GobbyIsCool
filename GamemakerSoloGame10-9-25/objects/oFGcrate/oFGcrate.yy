@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oBlueGate",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oFGcrate",
+  "eventList":[],
   "managed":true,
-  "name":"oBlueGate",
+  "name":"oFGcrate",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"sBlueGate",
-    "path":"sprites/sBlueGate/sBlueGate.yy",
+    "name":"sFGcrate",
+    "path":"sprites/sFGcrate/sFGcrate.yy",
   },
   "spriteMaskId":null,
   "visible":true,
