@@ -1,15 +1,16 @@
 window_set_size(1280, 720);
 hsp = 0;
 vsp = 0;
-grv = 0.225;
-jumpspeed = -3.2;
-movespeed = 1.12;
-hspwalk = 1;
-vspjump = -0.2;
+grv = 0.275;
+mspd = 1;
+mdir = 0;
+jspd = -4.15;
+tvel = 4;
+
+//Dash
+candash = true
 canjump = 0;
-canDash = false;
-dashDistance = 96;
-dashTime = 12;
+dashenergy = 10
 
 StateFree = function()
 {

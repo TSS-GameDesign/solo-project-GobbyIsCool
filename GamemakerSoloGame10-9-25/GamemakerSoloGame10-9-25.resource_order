@@ -26,7 +26,6 @@
     {"name":"oRedGate","order":5,"path":"objects/oRedGate/oRedGate.yy",},
     {"name":"oRedGateFC","order":10,"path":"objects/oRedGateFC/oRedGateFC.yy",},
     {"name":"oRedKey","order":8,"path":"objects/oRedKey/oRedKey.yy",},
-    {"name":"oSolid","order":11,"path":"objects/oSolid/oSolid.yy",},
     {"name":"oSpike","order":3,"path":"objects/oSpike/oSpike.yy",},
     {"name":"oYellowGate","order":4,"path":"objects/oYellowGate/oYellowGate.yy",},
     {"name":"oYellowKey","order":9,"path":"objects/oYellowKey/oYellowKey.yy",},

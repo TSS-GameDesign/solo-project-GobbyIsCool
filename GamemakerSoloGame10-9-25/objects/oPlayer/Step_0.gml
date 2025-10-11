@@ -1,88 +1,82 @@
-keyRight = keyboard_check(ord("D"))
-keyLeft = keyboard_check(ord("A"))
-keyJump = keyboard_check(ord("W"))
-keyDown = keyboard_check(ord("S"))
-keyDash = mouse_check_button(1)
+Right = keyboard_check(ord("D"));
+Left = keyboard_check(ord("A"));
+JumpPressed = keyboard_check_pressed(ord("W"));
+Jump = keyboard_check(ord("W"))
+Down = keyboard_check(ord("S"));
 
-hsp = 0;
+//x movement
+//direction
+mdir = Right - Left
 
-// Environment checks
-var on_ground = place_meeting(x, y + 1, oSolid);
-var wall_left = place_meeting(x - 1, y, oSolid);
-var wall_right = place_meeting(x + 1, y, oSolid);
-var on_plat = place_meeting(x, y+1, oPlatform);
+//get xspd
+hsp  = mdir * mspd 
 
-// Jumping
-if (keyboard_check_pressed(ord("W"))) 
+//x collision
+var _subPixel = 0.5;
+if place_meeting(x + hsp, y, oGround)
 {
-    if (on_ground) 
+	//scoot up to wall precisely
+	var _pixelCheck = _subPixel * sign(hsp);
+	while !place_meeting( x + _pixelCheck, y, oGround)
 	{
-        vsp = jumpspeed;
-    }
-}    
-// Input movement
-if keyRight
-{
-    hsp = movespeed;
-}
-if keyLeft 
-{
-    hsp = -movespeed;
+		x += _pixelCheck;
+	}
+	
+	//set xspd to zero  to "collide"
+	hsp = 0;	
 }
 
-// Gravity
+//move
+x += hsp;
+
+//y movement
+	//gravity
 vsp += grv;
 
-// Horizontal movement & collision
-if (!place_meeting(x + hsp, y, oSolid))
+//jump
+if JumpPressed && place_meeting(x,y+1, oGround)
 {
-    x += hsp;
-} else {
-    while (!place_meeting(x + sign(hsp), y, oSolid)) 
-	{
-        x += sign(hsp);
-    }
-    hsp = 0;
+	vsp = jspd;	
 }
-// Vertical movement & collision
-if (!place_meeting(x, y + vsp, oSolid)) 
-{
-    y += vsp;
-} else {
-    while (!place_meeting(x, y + sign(vsp), oSolid)) 
+	//y collison
+	var _subPixel = .5
+	if place_meeting(x, y + vsp, oGround)
 	{
-        y += sign(vsp);
-    }
-    vsp = 0;
-}
-if keyLeft
+		//scoot
+		var _pixelCheck = _subPixel * sign(vsp);
+		while !place_meeting(x, y + _pixelCheck, oGround)
+		{
+			y+= _pixelCheck;
+		}
+		//set yspd to 0 to collide
+		vsp = 0;
+	}
+// Environment checks
+var on_ground = place_meeting(x, y + 1, oGround);
+var wall_left = place_meeting(x - 1, y, oGround);
+var wall_right = place_meeting(x + 1, y, oGround);
+var on_plat = place_meeting(x, y+1, oPlatform);
+
+if Left
 {
 	hsp = -1.25;
 	image_xscale = -1
 }
-if keyRight
+if Right
 {
 	hsp = 1.25;
 	image_xscale = 1
 }
-if place_meeting(x, y+1, oSolid)
-{
-	vsp = 0
-	if keyJump
-	{
-		vsp = -2.65
-	}
-}
-move_and_collide(hsp, vsp, oSolid)
+move_and_collide(hsp, vsp, oGround)
 if (place_meeting(x, y, oFlag))
 {
-	game_end()
+	room_goto_next()
 }
 if (place_meeting(x, y, oSpike))
 {
 	game_restart()
 }
-if keyDown
+if Down
 {
 	room_restart()
 }

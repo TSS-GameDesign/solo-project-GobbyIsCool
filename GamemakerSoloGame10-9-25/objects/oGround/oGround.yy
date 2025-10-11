@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oSolid",
+  "%Name":"oGround",
   "eventList":[],
   "managed":true,
-  "name":"oSolid",
+  "name":"oGround",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,8 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"sSolidGround",
+    "path":"sprites/sSolidGround/sSolidGround.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
