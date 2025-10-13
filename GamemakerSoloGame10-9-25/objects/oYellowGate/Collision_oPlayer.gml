@@ -1,4 +1,4 @@
 if other.yellowkey = true
 {
-	instance_destroy(oYellowGate)
+	instance_destroy(self)
 }
