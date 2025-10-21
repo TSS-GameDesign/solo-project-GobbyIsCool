@@ -2,7 +2,6 @@ if (keyboard_check_pressed(vk_f11))
 {
     window_set_fullscreen(!window_get_fullscreen());
 }
-
 //Inputs
 var Right = keyboard_check(ord("D"));
 var Left = keyboard_check(ord("A"));
@@ -15,7 +14,9 @@ var wall_left  = place_meeting(x - 1, y, oGround);
 var wall_right = place_meeting(x + 1, y, oGround);
 
 //Grav
-vsp += grv;
+if (dash_timer <= 0) {
+    vsp += grv;
+}
 
 //Jump
 if (JumpPressed) {
@@ -82,6 +83,7 @@ if (Down) room_restart();
 if keyboard_check_pressed(ord("E")) room_goto_next();
 
 // Key and gate logic
+if (place_meeting(x, y, oYellowGate) && yellowkey) instance_destroy(oYellowGate);
 if (place_meeting(x, y, oYellowKey)) { yellowkey = true; instance_destroy(oYellowKey); }
 if (place_meeting(x, y, oBlueKey))   { bluekey = true; instance_destroy(oBlueKey); }
 if (place_meeting(x, y, oBlueGate) && bluekey) instance_destroy(oBlueGate);

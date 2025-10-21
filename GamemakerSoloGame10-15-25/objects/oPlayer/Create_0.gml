@@ -13,13 +13,15 @@ air_control_lock = 0;
 accel = 0.5;
 
 //Dash
-is_dashing = false;
+// Dash variables
+dash_speed = 6;
+dash_time = 5;
 dash_timer = 0;
-dash_speed = 8;      
-dash_time = 8;        
-dash_cooldown = 0;     
-dash_cooldown_time = 20;
-candash = true;       
+dash_cooldown = 0;
+dash_cooldown_max = 20;
+
+dash_dir_x = 0;
+dash_dir_y = 0;   
 
 StateFree = function()
 {
