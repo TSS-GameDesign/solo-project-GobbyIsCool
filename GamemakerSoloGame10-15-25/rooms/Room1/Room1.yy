@@ -102,6 +102,7 @@
     {"name":"inst_288E3EB3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_24DE79B5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_33B1F674","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_477A5E79","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -202,6 +203,7 @@
         {"$GMRInstance":"v2","%Name":"inst_288E3EB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_288E3EB3","objectId":{"name":"oFGcrate","path":"objects/oFGcrate/oFGcrate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":176.0,},
         {"$GMRInstance":"v2","%Name":"inst_24DE79B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24DE79B5","objectId":{"name":"oFGcrate","path":"objects/oFGcrate/oFGcrate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":176.0,},
         {"$GMRInstance":"v2","%Name":"inst_33B1F674","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33B1F674","objectId":{"name":"oFGcrate","path":"objects/oFGcrate/oFGcrate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":160.0,},
+        {"$GMRInstance":"v2","%Name":"inst_477A5E79","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_477A5E79","objectId":{"name":"oRedKey","path":"objects/oRedKey/oRedKey.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":176.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_56FD3825","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_56FD3825","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sBGcrate","path":"sprites/sBGcrate/sBGcrate.yy",},"x":48.0,"y":208.0,},
