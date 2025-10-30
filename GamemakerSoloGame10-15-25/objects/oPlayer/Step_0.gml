@@ -32,14 +32,14 @@ if (keyboard_check_pressed(vk_f11))
             vsp = jspd * 0.8;
             hsp = +5;
             air_control_lock = 8;
-            wall_jump_cooldown = 16;
+            wall_jump_cooldown = 15;
 
         } else if (wall_right && wall_jump_cooldown <= 0) {
 			image_xscale = -1
             vsp = jspd * 0.8;
             hsp = -5;
             air_control_lock = 8;
-            wall_jump_cooldown = 16;
+            wall_jump_cooldown = 15;
 
         }
     }
