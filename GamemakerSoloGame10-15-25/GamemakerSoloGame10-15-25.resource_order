@@ -39,6 +39,8 @@
     {"name":"Room4","order":4,"path":"rooms/Room4/Room4.yy",},
     {"name":"Room5","order":3,"path":"rooms/Room5/Room5.yy",},
     {"name":"Spongborb","order":5,"path":"rooms/Spongborb/Spongborb.yy",},
+    {"name":"s_collect","order":2,"path":"sounds/s_collect/s_collect.yy",},
+    {"name":"s_level1","order":1,"path":"sounds/s_level1/s_level1.yy",},
     {"name":"sBG","order":4,"path":"sprites/sBG/sBG.yy",},
     {"name":"sBGcrate","order":15,"path":"sprites/sBGcrate/sBGcrate.yy",},
     {"name":"sBlueGate_FC","order":17,"path":"sprites/sBlueGate_FC/sBlueGate_FC.yy",},
