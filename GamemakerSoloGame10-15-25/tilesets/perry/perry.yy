@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite29",
-    "path":"sprites/Sprite29/Sprite29.yy",
+    "name":"Tilesheet",
+    "path":"sprites/Tilesheet/Tilesheet.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

@@ -74,12 +74,31 @@ if (keyboard_check_pressed(vk_f11))
     if (keyboard_check_pressed(ord("P"))) room_goto_next();
 
     // Key and gate logic
-    if (place_meeting(x, y, oYellowGate) && yellowkey) instance_destroy(oYellowGate);
-    if (place_meeting(x, y, oYellowKey)) { yellowkey = true; instance_destroy(oYellowKey); }
-    if (place_meeting(x, y, oBlueKey))   { bluekey = true; instance_destroy(oBlueKey); }
-    if (place_meeting(x, y, oBlueGate) && bluekey) instance_destroy(oBlueGate);
-    if (place_meeting(x, y, oRedKey))    { redkey = true; instance_destroy(oRedKey); }
-    if (place_meeting(x, y, oRedGate) && redkey) {
+    if (place_meeting(x, y, oYellowGate) && yellowkey) 
+	{
+	instance_destroy(oYellowGate);
+	}
+    if (place_meeting(x, y, oYellowKey)) 
+	{ 
+		yellowkey = true; 
+		instance_destroy(oYellowKey); 
+	}
+    if (place_meeting(x, y, oBlueKey))   
+	{
+		bluekey = true;
+		instance_destroy(oBlueKey);
+	}
+    if (place_meeting(x, y, oBlueGate) && bluekey)
+	{
+	instance_destroy(oBlueGate);
+	}
+    if (place_meeting(x, y, oRedKey))    
+	{
+		redkey = true;
+		instance_destroy(oRedKey);
+	}
+    if (place_meeting(x, y, oRedGate) && redkey) 
+	{
         instance_destroy(oRedGate);
         instance_destroy(oRedGateFC);
     }
