@@ -79,6 +79,7 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},},
+    {"id":{"name":"sQuitButton","path":"sprites/sQuitButton/sQuitButton.yy",},},
     {"id":{"name":"sRedGate","path":"sprites/sRedGate/sRedGate.yy",},},
     {"id":{"name":"sRedGateFC","path":"sprites/sRedGateFC/sRedGateFC.yy",},},
     {"id":{"name":"sRedKey","path":"sprites/sRedKey/sRedKey.yy",},},

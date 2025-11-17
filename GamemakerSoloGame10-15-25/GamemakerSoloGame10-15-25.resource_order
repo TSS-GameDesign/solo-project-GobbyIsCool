@@ -57,6 +57,7 @@
     {"name":"sPlatform","order":13,"path":"sprites/sPlatform/sPlatform.yy",},
     {"name":"sPlayerIdle","order":26,"path":"sprites/sPlayerIdle/sPlayerIdle.yy",},
     {"name":"Sprite24","order":19,"path":"sprites/Sprite24/Sprite24.yy",},
+    {"name":"sQuitButton","order":28,"path":"sprites/sQuitButton/sQuitButton.yy",},
     {"name":"sRedGate","order":7,"path":"sprites/sRedGate/sRedGate.yy",},
     {"name":"sRedGateFC","order":12,"path":"sprites/sRedGateFC/sRedGateFC.yy",},
     {"name":"sRedKey","order":10,"path":"sprites/sRedKey/sRedKey.yy",},
