@@ -1,3 +1,7 @@
+if keyboard_check(vk_backspace)
+{
+	room_goto(Startscreen)
+}
 if (keyboard_check_pressed(vk_f11))
 {
     window_set_fullscreen(!window_get_fullscreen());

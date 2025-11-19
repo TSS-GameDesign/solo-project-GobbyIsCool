@@ -27,7 +27,13 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"blocks-16bit.ttf","CopyToMask":-1,"filePath":"datafiles","name":"blocks-16bit.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"blocks-3x3-monospaced.ttf","CopyToMask":-1,"filePath":"datafiles","name":"blocks-3x3-monospaced.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"blocks-extended.ttf","CopyToMask":-1,"filePath":"datafiles","name":"blocks-extended.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"blocks-sans-serif.ttf","CopyToMask":-1,"filePath":"datafiles","name":"blocks-sans-serif.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"blocks-serif.ttf","CopyToMask":-1,"filePath":"datafiles","name":"blocks-serif.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -35,6 +41,7 @@
   },
   "name":"GamemakerSoloGame10-15-25",
   "resources":[
+    {"id":{"name":"fonty","path":"fonts/fonty/fonty.yy",},},
     {"id":{"name":"oAkey","path":"objects/oAkey/oAkey.yy",},},
     {"id":{"name":"oBackButton","path":"objects/oBackButton/oBackButton.yy",},},
     {"id":{"name":"oBlueGate_FC","path":"objects/oBlueGate_FC/oBlueGate_FC.yy",},},
