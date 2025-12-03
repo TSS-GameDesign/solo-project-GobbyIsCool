@@ -86,11 +86,13 @@ if (keyboard_check_pressed(vk_f11))
 	{ 
 		yellowkey = true; 
 		instance_destroy(oYellowKey); 
+		instance_destroy(oYInviwall);
 	}
     if (place_meeting(x, y, oBlueKey))   
 	{
 		bluekey = true;
 		instance_destroy(oBlueKey);
+		instance_destroy(oBInviwall);
 	}
     if (place_meeting(x, y, oBlueGate) && bluekey)
 	{
@@ -100,6 +102,7 @@ if (keyboard_check_pressed(vk_f11))
 	{
 		redkey = true;
 		instance_destroy(oRedKey);
+		instance_destroy(oRInviwall);
 	}
     if (place_meeting(x, y, oRedGate) && redkey) 
 	{
