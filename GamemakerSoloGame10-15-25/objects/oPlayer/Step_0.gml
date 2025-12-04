@@ -22,6 +22,19 @@ if (keyboard_check_pressed(vk_f11))
 	if (air_control_lock <= 0) {
 		hsp = move * mspd;
 	}
+	//sprites
+	if !on_ground
+	{
+		sprite_index = sPlayerJump
+	}
+	else if Right or Left
+	{
+		sprite_index = sPlayerWalk
+	}
+	else
+	{
+		sprite_index = sPlayerIdle	
+	}
     //Apply gravity
     vsp += grv;
 
