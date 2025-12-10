@@ -90,6 +90,16 @@ if (keyboard_check_pressed(vk_f11))
     if (Down) room_restart();
     if (keyboard_check_pressed(ord("P"))) room_goto_next();
 
+//Trampoline
+if (place_meeting(x, y + vsp, oSpring)) 
+{
+    while (!place_meeting(x, y + sign(vsp), oSpring)) 
+	{
+        y += sign(vsp);
+    }
+    //Go up
+    vsp = -5; // bounce strength
+}
     // Key and gate logic
     if (place_meeting(x, y, oYellowGate) && yellowkey) 
 	{
