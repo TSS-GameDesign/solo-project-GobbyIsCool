@@ -98,7 +98,7 @@ if (place_meeting(x, y + vsp, oSpring))
         y += sign(vsp);
     }
     //Go up
-    vsp = -5; // bounce strength
+    vsp = -6; // bounce strength
 }
     // Key and gate logic
     if (place_meeting(x, y, oYellowGate) && yellowkey) 
