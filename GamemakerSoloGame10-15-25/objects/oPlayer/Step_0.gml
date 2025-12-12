@@ -9,7 +9,7 @@ if (keyboard_check_pressed(vk_f11))
   //Inputs
     var Right = keyboard_check(ord("D"));
     var Left = keyboard_check(ord("A"));
-    var JumpPressed = keyboard_check_pressed(ord("W"));
+    var JumpPressed = keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_space);
     var Down = keyboard_check(ord("S"));
     var KeyDash = keyboard_check_pressed(vk_space);
 
@@ -117,9 +117,10 @@ if (place_meeting(x, y + vsp, oSpring))
 		instance_destroy(oBlueKey);
 		instance_destroy(oBInviwall);
 	}
-    if (place_meeting(x, y, oBlueGate) && bluekey)
+    if (place_meeting(x, y, oBlueGate) && bluekey) or (place_meeting(x, y, oBlueGate_FC) && bluekey)
 	{
 	instance_destroy(oBlueGate);
+	instance_destroy(oBlueGate_FC);
 	}
     if (place_meeting(x, y, oRedKey))    
 	{
@@ -127,7 +128,7 @@ if (place_meeting(x, y + vsp, oSpring))
 		instance_destroy(oRedKey);
 		instance_destroy(oRInviwall);
 	}
-    if (place_meeting(x, y, oRedGate) && redkey) 
+    if (place_meeting(x, y, oRedGate) && redkey) or (place_meeting(x, y, oRedGateFC) && redkey)
 	{
         instance_destroy(oRedGate);
         instance_destroy(oRedGateFC);

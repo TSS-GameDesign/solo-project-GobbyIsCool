@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite24",
-    "path":"sprites/Sprite24/Sprite24.yy",
+    "name":"sSaw",
+    "path":"sprites/sSaw/sSaw.yy",
   },
   "spriteMaskId":null,
   "visible":true,
