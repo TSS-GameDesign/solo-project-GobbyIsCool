@@ -1,5 +1,4 @@
 window_set_size(1280, 720);
-
 // Movement variables
 hsp = 0;
 vsp = 0;
@@ -16,3 +15,8 @@ wall_jump_cooldown = 0;
 yellowkey = false;
 redkey = false;
 bluekey = false;
+
+//health thing
+player_health = 1;
+respawn_x = x;
+respawn_y = y;

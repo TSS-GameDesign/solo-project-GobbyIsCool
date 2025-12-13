@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"InfoRoo",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/InfoRoo/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -12,6 +12,7 @@
     {"name":"inst_2DF302A8","path":"rooms/InfoRoo/InfoRoo.yy",},
     {"name":"inst_3E096716","path":"rooms/InfoRoo/InfoRoo.yy",},
     {"name":"inst_43E1F3E7","path":"rooms/InfoRoo/InfoRoo.yy",},
+    {"name":"inst_411AF9C","path":"rooms/InfoRoo/InfoRoo.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,6 +23,7 @@
         {"$GMRInstance":"v2","%Name":"inst_2DF302A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DF302A8","objectId":{"name":"oWkey","path":"objects/oWkey/oWkey.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.25,"scaleY":1.25,"x":242.0,"y":99.0,},
         {"$GMRInstance":"v2","%Name":"inst_3E096716","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E096716","objectId":{"name":"oTextInfo","path":"objects/oTextInfo/oTextInfo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":48.0,"y":32.0,},
         {"$GMRInstance":"v2","%Name":"inst_43E1F3E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43E1F3E7","objectId":{"name":"oBackButton","path":"objects/oBackButton/oBackButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2.0,"y":2.0,},
+        {"$GMRInstance":"v2","%Name":"inst_411AF9C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_411AF9C","objectId":{"name":"oBackspaceKey","path":"objects/oBackspaceKey/oBackspaceKey.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.25,"scaleY":1.25,"x":176.0,"y":121.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_45FA262D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_45FA262D","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":20.0,"scaleY":12.0,"spriteId":{"name":"sBrick","path":"sprites/sBrick/sBrick.yy",},"x":0.0,"y":0.0,},

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"s_Checkpoint",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "bitRate":40,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.0440136,
+  "name":"s_Checkpoint",
+  "parent":{
+    "name":"Audio",
+    "path":"folders/Audio.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"s_Checkpoint.mp3",
+  "type":0,
+  "volume":1.0,
+}

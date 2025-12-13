@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite53",
-    "path":"sprites/Sprite53/Sprite53.yy",
+    "name":"sLogo",
+    "path":"sprites/sLogo/sLogo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

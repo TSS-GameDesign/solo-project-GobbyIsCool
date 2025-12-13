@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"imaturd",
-    "path":"sprites/imaturd/imaturd.yy",
+    "name":"Green",
+    "path":"sprites/Green/Green.yy",
   },
   "spriteMaskId":null,
   "visible":true,

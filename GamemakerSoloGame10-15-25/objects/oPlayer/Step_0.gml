@@ -35,10 +35,10 @@ if (keyboard_check_pressed(vk_f11))
 	{
 		sprite_index = sPlayerIdle	
 	}
-    //Apply gravity
+    //gravity
     vsp += grv;
 
-    //Jump logic
+    //Jump logic type stuff
     if (JumpPressed) {
         if (on_ground) {
             vsp = jspd;
@@ -86,19 +86,24 @@ if (keyboard_check_pressed(vk_f11))
 
     // Object interactions
     if (place_meeting(x, y, oFlag)) room_goto_next();
-    if (place_meeting(x, y, oSpike)) room_restart();
-    if (Down) room_restart();
-    if (keyboard_check_pressed(ord("P"))) room_goto_next();
-
-//Trampoline
-if (place_meeting(x, y + vsp, oSpring)) 
-{
-    while (!place_meeting(x, y + sign(vsp), oSpring)) 
+    if (place_meeting(x, y, oSpike))
 	{
-        y += sign(vsp);
+		player_health -= 1;
+		if player_health < 1
+		{
+		x = respawn_x;
+		y = respawn_y;
+		}
+	}
+
+//Spring
+if (place_meeting(x, y + vsp, oSpring))
+{
+    while (place_meeting(x, y, oSpring))
+    {
+        y -= 1;
     }
-    //Go up
-    vsp = -6; // bounce strength
+    vsp = -6;
 }
     // Key and gate logic
     if (place_meeting(x, y, oYellowGate) && yellowkey) 
@@ -110,12 +115,14 @@ if (place_meeting(x, y + vsp, oSpring))
 		yellowkey = true; 
 		instance_destroy(oYellowKey); 
 		instance_destroy(oYInviwall);
+		audio_play_sound(s_KeyCollect, 1, 0)
 	}
     if (place_meeting(x, y, oBlueKey))   
 	{
 		bluekey = true;
 		instance_destroy(oBlueKey);
 		instance_destroy(oBInviwall);
+		audio_play_sound(s_KeyCollect, 1, 0)
 	}
     if (place_meeting(x, y, oBlueGate) && bluekey) or (place_meeting(x, y, oBlueGate_FC) && bluekey)
 	{
@@ -127,6 +134,7 @@ if (place_meeting(x, y + vsp, oSpring))
 		redkey = true;
 		instance_destroy(oRedKey);
 		instance_destroy(oRInviwall);
+		audio_play_sound(s_KeyCollect, 1, 0)
 	}
     if (place_meeting(x, y, oRedGate) && redkey) or (place_meeting(x, y, oRedGateFC) && redkey)
 	{
